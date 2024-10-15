@@ -11,8 +11,3 @@ total_bill = 128
 no_of_friends = 5 
 
 #calculate tip
-tip = (15 * total_bill) / 100
-total_bill = total_bill + tip   #adding the tip in the total bill
-per_person = round(total_bill/no_of_friends, 2) #round
-
-print("total bill per person:",per_person )
