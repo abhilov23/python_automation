@@ -15,9 +15,11 @@ is_new = True #is_new a boolean (bool)
 #
 #
 #
+#Integers vs float
+print(4/3) #this will give you the output 4.0
+print(4//4) #and this is integer division which will give you an output of 4.0
 #
 #
-#
-#
+
 #
 #
