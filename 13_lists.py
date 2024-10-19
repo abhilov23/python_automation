@@ -13,3 +13,10 @@ print(number[::2])#from the first elements to the last after every two steps
 
 repeated = 2 * fruits 
 print(repeated) #it prints the list for two times
+
+#functions in lists
+#min() : find the minimum element in the list
+#max() : find the maximum element in the list
+#sum() : finds the sum of all elements in the list
+#sorted() : gives you the shorted list (in alphabetical or numerical order)
+
