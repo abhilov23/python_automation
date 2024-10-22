@@ -14,4 +14,10 @@ important_logs = [log for log in log_files if log.startswith('e','a')]
 print(f"checking important logs: {important_logs}")
 
 #directionary comprehensions
-#ex: creating a server status dictionary
+#ex: creating a server status dictionary 
+servers = ['web1', 'web2', 'web3', 'web4', 'db1']
+#Assure, all servers are in 'online'.
+server_status = {server : 'online' for server in servers}
+print(server_status)
+
+
