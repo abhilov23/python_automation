@@ -26,7 +26,7 @@ while True:
     print(client_socket) #printing the client_socket data
     print(type(client_socket)) #printing the type of client_socket 
     print(client_address) #printing the client_address
-    print(f"Client connected with address: {client_socket.getpeername()}") #brings you the ipaddress adn portname of the same
+    print(f"Client connected with address: {client_socket.getpeername()}") #brings you the ipaddress and portname of the same
 
     #send a message to the client that just connected, but we cannot send
     #string directly so we need to encode it via internet
